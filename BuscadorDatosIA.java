@@ -38,7 +38,7 @@ import org.jfree.data.xy.XYSeries;
 
 /**
  *
- * @author COPACO
+ * @author Robert
  */
 public class BuscadorDatosIA extends javax.swing.JFrame {
 
