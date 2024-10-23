@@ -213,11 +213,9 @@ public class BuscadorDatosIA extends javax.swing.JFrame {
         System.out.println("json enviado " + json);
         EscribirLog.escribirLog("BuscadorDatosIA.class", "json enviado " + json);
         
-        //token = "11fb26d6d519869dfd770a859febf0a17c901db8ba1d80fe394e2d5c9c7c0a12"; //API KEY rjmadlan@gmail.com
-        //token = "3cb542a234c5e0af74752b3897dfc0c99d3cdd3e39845baf9a4fbc23048d5390"; // API KEY profeholanda2002@gmail.com
-        token = "b437cbc1d0481e73a0a6401e7035e9adf94ed78b86d367d6de50f4503f648e8f"; //API KEY manusanabria2024@gmail.com
-        //token = "1cef13869ac16e682c2161f69745e59f96521808628e668bc3b3d819baf4f3aa"; //API KEY rjmadlan@msn.com
-        //token = "ab342c60672516e6d9643324d2c103a054490d3492661afe0b58839f33750019"; //API KEY jesusanabria@hotmail.com
+        
+        token = "b437cbc1d0481e73a0a6401e7035e9adf94ed78b86d367d6de50f4503f648e8f"; //API KEY
+        
         
         ////---Invocar a la coneccion con la IA, y pasarle la url de la IA de Text2sql.ai, el json con el prompt en lenguaje natural y el schema de la BD
         resultado = ct.clientPost(url, json, token);
